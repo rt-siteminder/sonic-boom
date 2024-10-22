@@ -4,9 +4,11 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <h2>Sonic Boom</h2>
+    <h1>Sonic Boom</h1>
   </div>
-  <HelloWorld msg="Self Service Migration" />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
